@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercises</title>
+</head>
+
+<body>
+    <!-- <inputs> do not have closing tags-->
+    <form action="/tacos">
+        <p>
+            <!-- You should be using the name attribute to label the form input type
+                this will become important when we are actually storing it. -->
+            <label for="username">Enter a username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name.">
+        </p>
+        <p>
+            <label for="password">Enter a Password:</label>
+            <input type="password" id="password" name="password" placeholder="password">
+        </p>
+        <p>
+            <label for="color">Choose a Color:</label>
+            <input id="color" name="color" type="color">
+        </p>
+        <p>
+            <label for="number">Enter a Number:</label>
+            <input type="number" name="num" id="number" placeholder="Enter a number">
+        </p>
+        <p>
+            <label for="videogame">Do you like videogames?</label>
+            <input type="checkbox" name="videogame" id="videogame">
+        </p>
+        <button>Submit</button>
+    </form>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q" id="">
+        <button>Search Reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" id="">
+        <button>Google Search</button>
+    </form>
+    <h1>Other inputs</h1>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos">
+        <label for="agree_tos">I agree to everything</label>
+        <p>
+            <label for="vanilla">Vanilla</label>
+            <input type="radio" name="flavor" id="vanilla" value="vanilla">
+            <label for="chocolate">Chocolate</label>
+            <input type="radio" name="flavor" id="chocolate" value="chocolate">
+            <label for="mint">Mint</label>
+            <input type="radio" name="flavor" id="mint" value="mint">
+        </p>
+        <p>
+            <label for="food">Choose what food you'd like.</label>
+            <select name="food" id="food">
+                <option value="chicken">Chicken</option>
+                <option value="fish" selected>Fish</option>
+                <option value="beef">Beef</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

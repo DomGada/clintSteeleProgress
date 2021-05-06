@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.csss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-md">
+        <!-- Above is a small container -->
+        <!-- you need the bootstrap container to use grids -->
+        <!-- container-sm is a responsive container that will shift on a small break point -->
+        <!-- if you want to work with different containers https://getbootstrap.com/docs/5.0/layout/containers/ <- Go there -->
+        <h1 class="display-1 text-center">Placeholder</h1>
+        <!-- class lead makes the paragraph slightly stand out. -->
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aut debitis cumque dolores
+            rerum
+            ab
+            exercitationem commodi consequatur cupiditate quaerat, adipisci sequi aliquid! Sed, dignissimos laboriosam!
+            Qui quo harum animi.Saepe eaque modi a eveniet inventore, iusto consectetur, corporis ipsam pariatur,
+            deleniti animi earum? Assumenda vel quia obcaecati aliquid hic ea architecto rem adipisci reiciendis, in ad
+            voluptate qui quos.</p>
+        <blockquote class="blockquote text-right text-secondary">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deserunt? Lorem ipsum dolor sit
+                amet consectetur, adipisicing elit. Facilis, ex.</p>
+            <footer class="blockquote-footer">By: Jane Doe</footer>
+            <!-- blockquote-footer creates a pretty footer to label paragraphs -->
+        </blockquote>
+        <h2 class="display-4">Buttons</h2>
+        <!-- display-4, another itteration of display -->
+        <button type="button" class="btn btn-primary">Primary <span class="badge badge-light">6</span></button>
+        <!-- Down here we can see that we are using a button style from bootstrap -->
+        <!-- btn is button, this is a primary one using the primary color: Blue -->
+        <!-- primary does not need to be blue just as the other buttons do not need to hold their colors -->
+        <!-- for more buttons visit -> https://getbootstrap.com/docs/5.0/components/buttons/ -->
+        <button type="button" class="btn btn-outline-danger">Danger Zone!</button>
+        <!-- you can add -outline- inbetween button and the selection to make the bg transparent until hover -->
+        <button type="button" class="btn btn-outline-success">Success!</button>
+        <button type="button" class="btn btn-primary btn-block btn-lg">Large Block Level Success</button>
+        <h1 class="display-5">Display 5 Showcase</h1>
+        <!-- this display-1 makes the original h1 much much larger -->
+        <!-- display-1 does not indicate meaning it is simply a scale of whatever header. -->
+        <!-- This is under the typography sections which changes display and global font settings. -->
+
+        <div class="btn-group">
+            <button class="btn btn-warning">1</button>
+            <button class="btn btn-warning">2</button>
+            <button class="btn btn-warning">3</button>
+        </div>
+        <!-- The btn-group class allows you to make a group of buttons that all link together. -->
+
+        <h2 class="display-5">ALERTS</h2>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Oh No!</strong> THE WORLD IS ENDING.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

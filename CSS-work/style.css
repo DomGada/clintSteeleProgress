@@ -1,0 +1,20 @@
+body {
+    width: 200px;
+}
+
+#div1 {
+    width: inherit;
+    border: 1px solid black;
+
+}
+
+#div2 {
+    width: inherit;
+    border-width: 5px;
+    border-color: cyan;
+    border-style: groove;
+    border-left-color: green;
+    border-radius: 10px;
+    /* border radius manages how curved the border will be, ie to make a rounded border add a 10px radius
+    you can also make circles. */
+}

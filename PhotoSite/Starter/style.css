@@ -1,0 +1,16 @@
+img {
+    width: 30%;
+    margin: 1.66666%;
+}
+
+
+
+nav {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width: 30%;
+    margin-left: calc(10%/6);
+    border-bottom: 1px solid lightgray;
+    padding: 1.2em 0;
+}
